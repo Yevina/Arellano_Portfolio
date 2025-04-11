@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Resume - Ayena Virna S. Arellano</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3ee; /* Soft cream background */
+            color: #000; /* Black font color */
+        }
+
+        header {
+            background-color: #c2b8d9; /* Lavender */
+            color: black;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin: 10px 0;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        header p {
+            font-size: 14px;
+            color: #e6e2f0; /* Soft white with lavender tint */
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: #7b9cc4; /* Powder blue */
+            padding: 12px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #ffffff; /* White for content background */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #d1c1e0; /* Lavender accent */
+            padding-bottom: 8px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 20px;
+            color: #000; /* Black font color */
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #c2b8d9; /* Lavender */
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer .container {
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-size: 14px;
+        }
+
+        footer .container a {
+            color: #bba3f9;
+            text-decoration: none;
+        }
+
+        footer .container a:hover {
+            text-decoration: underline;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #7b9cc4; /* Powder blue */
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-to-top:hover {
+            background-color: #547fb3; /* Deeper powder blue */
+        }
+
+        .back-to-top:focus {
+            outline: none;
+        }
+
+        /* Keyframes for fadeIn animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Hover effect for images */
+        img {
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+        }
+
+        img:hover {
+            transform: scale(1.05); /* Slightly enlarges the image */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds shadow when hovered */
+        }
+
+        /* Portfolio Section */
+        #portfolio img, #samples img, #me img, footer img {
+            animation: fadeIn 1.5s forwards;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Ayena Virna S. Arellano</h1>
+        <img src="images/yena2.png" height="150" width="150" alt="Photo of a girl">
+        <p><strong>BSIT STUDENT</strong></p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#samples">My Work</a></li>
+            <li><a href="#me">About Me</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections (Content as per your original code) -->
+    <!-- Resume Section -->
+    <div class="container" id="resume">
+        <div class="section-title">Resume</div>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>A highly motivated IT student with a strong commitment to learning and developing expertise in the field of technology. My academic journey began in Medical Technology, where I gained valuable discipline and problem-solving skills. However, after facing challenges that led me to reevaluate my career aspirations, I made the decision to transition to Information Technology with the encouragement and support of my family. This shift allowed me to discover a deep interest in the innovative and dynamic nature of IT. My determination to succeed, coupled with my adaptability and enthusiasm for continuous learning, has reinforced my passion for building a fulfilling career in technology.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Photographer</li>
+                <li>Graphic Designer</li>
+                <li>Photo Editor</li>
+                <li>Video Editor</li>
+                <li>Story Writer</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <p>Analytics Odyssey: Navigating the Sea of Data | RDC: December 13, 2024</p>
+            <p>Beyond Automation: Introduction to a Rapidly Advancing AI Era | March 29, 2025</p>
+            <img src="images/cert1.jpg" alt="Certification Image" style="width: 50%; margin-top: 20px;">
+            <img src="images/cert2.jpg" alt="Certification Image" style="width: 50%; margin-top: 20px;">
+        </section>
+
+        <section id="educations">
+            <h2>Education</h2>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Bachelor of Science in Medical Laboratory Science</p>
+        </section>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="container" id="portfolio">
+        <div class="section-title">Portfolio</div>
+        <img src="images/yena1.png" alt="Portfolio Preview" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+        <video controls style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+            <source src="video/galaxy.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <audio controls loop style="width: 100%; margin-bottom: 20px;">
+            <source src="audio/Calm.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- My Work Section -->
+    <div class="container" id="samples">
+        <div class="section-title">My Work</div>
+        <div class="image-gallery">
+            <h2>Graphic Designing</h2>
+            <img src="images/mywork.png" alt="Work Sample 1" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork1.png" alt="Work Sample 2" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork2.png" alt="Work Sample 3" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <h2>Story Writing</h2>
+            <img src="images/mywork3.png" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork4.png" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork5.png" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork6.png" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <h2>Photography</h2>
+            <img src="images/mywork7.jpg" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+            <img src="images/mywork8.jpg" alt="Work Sample 4" style="width: 48%; margin: 1%; border-radius: 8px;">
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+<div class="container" id="me">
+    <div class="section-title">About Me</div>
+    <section id="bio">
+        <p>Hello! I’m Ayena Virna S. Arellano, a highly motivated and dedicated student currently pursuing a Bachelor of Science in Information Technology. My academic journey initially began in Medical Laboratory Science, but as I delved deeper into the world of technology, I discovered a profound passion for IT. This realization led me to make the rewarding decision to transition into the field of Information Technology, where I could further explore the boundless opportunities and innovations that technology offers.</p>
+        <p>Throughout my academic career, I’ve developed a keen interest in various creative fields, including photography, graphic design, photo editing, video editing, and story writing. These areas of creativity have allowed me to hone my technical skills while also nurturing my artistic expression. I have always believed in the power of merging creativity with technology to create solutions that are both functional and impactful.</p>
+        <p>Beyond my studies, I take great pride in challenging myself through hands-on projects and continuous learning. I find immense satisfaction in collaborating with like-minded individuals, pushing boundaries, and working together to create meaningful and innovative work. Technology, to me, is not just a field of study, but a dynamic force that can solve complex problems and bring about positive change in the world.</p>
+        <p>In my free time, I actively engage in photography, explore new graphic design techniques, and write stories that fuel my imagination and inspire creativity. My ultimate goal is to blend my technical expertise with my creative abilities to make a lasting contribution to the digital landscape, shaping the future in ways that inspire and empower others.</p>
+    </section>
+    <!-- Image below About Me Section -->
+    <img src="images/aboutme.jpg" alt="About Me Image" style="width: 100%; border-radius: 8px; margin-top: 20px;">
+    <p>As depicted in the photo above, I am the only daughter among five children in my family. I have the privilege of being the youngest of four siblings, with three older brothers who have each established their own families. This has brought a new dynamic to our family, as I am fortunate to be an aunt to two wonderful children, both a nephew and a niece. My role as the only girl in the family has shaped me in unique ways, fostering a deep sense of responsibility, adaptability, and strong family values. I cherish the close-knit relationships with my siblings and enjoy the joy and learning that comes with spending time with my young nieces and nephews.</p>
+    </div>
+
+<!-- Contact Section -->
+<div class="container" id="contact" style="max-width: 600px; padding: 20px; text-align: center;">
+    <div class="section-title" style="font-size: 22px; margin-bottom: 20px;">Contact Me</div>
+    <form action="#" method="POST" style="text-align: left;">
+        <div style="margin-bottom: 15px;">
+            <label for="full-name" style="font-size: 14px; display: block;">Name:</label>
+            <input type="text" id="full-name" name="full-name" placeholder="Your Name" required style="padding: 10px; font-size: 14px; width: 100%; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="font-size: 14px; display: block;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required style="padding: 10px; font-size: 14px; width: 100%; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="message" style="font-size: 14px; display: block;">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required style="padding: 10px; font-size: 14px; width: 100%; height: 80px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <button type="submit" class="send-button" style="padding: 10px 20px; font-size: 14px; background-color: #7b9cc4; color: white; border: none; border-radius: 5px; cursor: pointer;">Send</button>
+            <button type="reset" class="clear-button" style="padding: 10px 20px; font-size: 14px; background-color: #ccc; color: black; border: none; border-radius: 5px; cursor: pointer;">Clear</button>
+        </div>
+    </form>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ayena Virna S. Arellano. All rights reserved.</p>
+            <p>Connect with me on <a href="#">LinkedIn</a>, <a href="#">GitHub</a>, <a href="#">Instagram</a></p>
+            <p><strong>Email:</strong> <a href="mailto:asarellano0960qc@student.fatima.edu.ph">asarellano0960qc@student.fatima.edu.ph</a>, <strong>Phone:</strong> 123-456-7890</p>
+            <p><strong>Location:</strong> Quezon City, Philippines</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑</a>
+</body>
+</html>
